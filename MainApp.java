@@ -4,9 +4,6 @@ import java.util.regex.Matcher;
 import java.time.LocalDate;
 import java.time.Period;
 
-//comment
-//comment
-
 public class MainApp {
 
     static Boolean checkEmail(String e){ //check email
