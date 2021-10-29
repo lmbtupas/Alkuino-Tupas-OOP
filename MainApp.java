@@ -6,6 +6,8 @@ import java.time.Period;
 
 public class MainApp {
 
+    int r = 5;
+
     static Boolean checkEmail(String e){ //check email
         Pattern p = Pattern.compile("^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$");
         Matcher v = p.matcher(e);
